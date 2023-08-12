@@ -4,7 +4,7 @@ import { useStateValue } from "./StateProvider";
 function Product({title,image,price,rating}){
    // dispatching the item into the data layer
   const[{basket},dispatch]=useStateValue();
-  console.log(basket);
+
 
   const totalPrice = basket.reduce((sum, item) => {
     // Check if the item has a valid price
@@ -14,7 +14,6 @@ function Product({title,image,price,rating}){
     return sum;
   }, 0);
   
-  console.log(totalPrice);
 //   for(let i=0;i<basket.length;i++)
 //   {
 //     for(let ele of basket[i])
@@ -53,7 +52,7 @@ function Product({title,image,price,rating}){
         </div>
        </div>
        <img src={image}/>
-       <button onClick={addtobasket}>Add to basket</button>
+       <button onClick={addtobasket}>Add to cart</button>
     </div>
     );
 }

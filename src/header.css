@@ -1,6 +1,6 @@
 
 .header{
-    height: 60px;
+    height: 65px;
     display: flex;
     align-items: center;
     background-color: rgb(0, 0, 0);
@@ -11,11 +11,10 @@
 }
 .header__logo
 {
-    width: 100px;
     object-fit: contain;
-    /* margin:0 20px;
-    margin-top: 18px; */
-    height: 60px;
+    margin: 18px;
+    height: 50px;
+    width: 120px;
     
 }
 .header__search{
@@ -24,6 +23,8 @@
     align-items: center;
     margin-right: 20px;
     border-radius: 24px;
+    width: 50%; 
+    /* justify-content: center; */
 }
 .header__searchInput{
     height: 12px;
@@ -38,9 +39,11 @@
     flex-direction: column;
     margin-right: 10px;
     align-items: center;
+    
 }
 .header_optionLineOne{
      font-size: 10px;
+   
 
 }
 .header_optionLineTwo{
@@ -63,3 +66,10 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.custom {
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    /* ... */
+}
+

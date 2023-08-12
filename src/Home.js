@@ -14,7 +14,8 @@ function Home(){
             </Link>
 
             <div className="home_row">
-                <Product title="The lean Start up" price={1202.99} image={"https://m.media-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"} rating={5}/>
+                <Product title="The lean Start up" id={1} price={1202.99} image={"https://m.media-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"} rating={5}/>
+                <Product />
                 <Product />
             </div>
             <div className="home_row">
